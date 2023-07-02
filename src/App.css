@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filho{
+  display: flex;
+  
+}
+.figuras {
+  display: flex;
+  flex-direction: column;
+}
+.figuras__superior {
+  display: flex;
+}
+
+.figuras__inferior {
+  display: flex;
+}
+
+.figuras img {
+  height: 250px;
+  width: 350px;
+}
+.show__image { 
+  opacity: 1;
+}
+
+.not__show__image {
+  opacity: 0;
+}
